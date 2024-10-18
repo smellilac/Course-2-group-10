@@ -93,7 +93,7 @@ namespace practic
         {
             public static void Task(int n, int[] array)
             {
-                Console.WriteLine("Задача 1: Найти в массиве целых чисел первый подмассив длиной N, сумма элементов которого максимальна. Вывести найденный подмассив.");
+            
                 var maxIndex = 0;
                 var max = 0;
                 for (int i = 0; i < array.Length - n; i++)
