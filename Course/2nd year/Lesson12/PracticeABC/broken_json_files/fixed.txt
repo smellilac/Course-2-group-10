@@ -1,0 +1,99 @@
+{
+   "product":{
+      "name":"Laptop",
+      "price":1200,
+      "description":"High performance laptop"
+   }
+}
+
+{
+    "addresses": [
+        {
+            "type": "Billing",
+            "address": "123 Main St"
+        },
+        {
+            "type": "Shipping",
+            "address": "456 Elm St"
+        }
+    ]
+}
+
+
+{
+    "category": "Electronics",
+    "products": [
+        "TV",
+        "Radio",
+        "Camera"
+    ]
+}
+
+{
+    "order": {
+        "id": 12345,
+        "items": [
+            "Laptop",
+            "Camera"
+        ],
+        "total": 1700
+    }
+}
+
+{
+    "user": {
+        "name": "John Doe",
+        "email": "john@example.com",
+        "purchases": 5
+    }
+}
+
+{
+    "cart": [
+        "Product1",
+        "Product2",
+        "Product3",
+        "Product4"
+    ]
+}
+
+{
+    "shipping": {
+        "method": "Standard",
+        "price": 20,
+        "estimated_days": 3
+    }
+}
+
+{
+    "payment": {
+        "method": "Credit Card",
+        "status": "Pending"
+    }
+}
+
+{
+    "reviews": [
+        {
+            "product": "Laptop",
+            "rating": 5,
+            "comment": "Great!"
+        },
+        {
+            "product": "Camera",
+            "rating": 4
+        }
+    ]
+}
+
+{
+    "discounts": [
+        {
+            "product": "TV",
+            "discount": "15%"
+        },
+        {
+            "product": "Camera",
+            "discount": "10%"
+        }
+    ]
